@@ -16,6 +16,9 @@ class Currency
     @@all 
   end# of self.all
 
+  def self.clear
+    @@all = [] 
+  end# of clear
 
   def self.create
     html = Scraper.get_page
