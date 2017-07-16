@@ -25,12 +25,13 @@ def call
       if currency != nil
         puts "  One dollar = #{currency.to_dollars} #{currency.name}(s) \n  #{currency.inverse} #{currency.name}(s) converts to one dollar.\n\n"
 
-      elsif currency == nil && input != "exit"
-        puts "\nThat is not a valid selection.\n\n"
-
       elsif input == "list"
         Currency.list
         puts "\n\nWhich would you like to see the rate for?\n\n"
+
+      elsif currency == nil && input != "exit"
+        puts "\nThat is not a valid selection.\n\n"
+        
       end# of the if
       end# of loop
 
