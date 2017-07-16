@@ -1,8 +1,6 @@
 # CurrentSea
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/current_sea`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This is a command line interface that scrapes the web for global currency exchange rates.
 
 ## Installation
 
@@ -22,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Simply type "list" to list the name of currencies, and then type the name of the currency to have it display the current rate of exchange using the dollar as a basis for comparison.
 
 ## Development
 
